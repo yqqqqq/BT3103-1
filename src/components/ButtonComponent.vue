@@ -17,7 +17,7 @@ export default {
   
   methods:{
       decrement(){
-          if(this.counter>0) 
+          if(this.counter>0) //only allow positive counter
             return this.counter--;
           else
             return this.counter;
